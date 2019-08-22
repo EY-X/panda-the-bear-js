@@ -67,3 +67,24 @@ $('#submit').attr('disabled', true)
 
 let x = document.querySelector('.bio-info')
 let removex =  aside.removeChild(x)
+
+
+----------------PART 2----------------
+
+1.
+
+$('div .bar-default:nth-of-type(3)').remove()
+
+<!-- let skill = document.querySelector('#time-travel')
+let remove = section.removeChild(skill) -->
+
+2.
+
+let pikachuPic = document.querySelector('#right-image > img') let pikaClone = pikachuPic.cloneNode(true) let picSection = document.querySelector('section > :nth-child(2)') picSection.appendChild(pikaClone)
+
+
+for (let x = 0; x < 10; x++) { let newPikaClone = document.createElement('img') newPikaClone.src = 'images/pikachu-drawing.jpg' picSection.appendChild(newPikaClone) }
+
+
+
+
